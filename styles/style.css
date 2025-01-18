@@ -107,7 +107,7 @@ header {
     font-weight: 40px;
     /* font-size: 200; */
     color: #0E0E0E;
-    margin-top: 70px;
+    margin: 24px 0px;
 }
 
 /* pillars section  */
@@ -466,11 +466,87 @@ td {
     margin-top: 34px;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
-.sunmit-btn{
+
+.sunmit-btn {
     text-align: center;
     padding: 17px 34px;
     background: rgb(0, 106, 80);
     color: #F7EBCF;
     margin: 32px 0px;
     font-weight: 600;
+}
+
+/* subscription section */
+.subs-main {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.subscription {
+    padding: 80px 100px;
+    border-radius: 24px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.subscription-main {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.sbs-header {
+    padding: 24px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sbs-input-container {
+    display: flex;
+    /* text-align: left; */
+}
+
+.sbs-input-container input {
+    width: 600px;
+    padding: 18px 40px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.sbs-input-container button {
+    color: #FFFFFF;
+    width: 150px;
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+}
+
+.subscription-footer {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    F letter-spacing: 0%;
+    margin: 24px 0px;
+}
+
+footer {
+    width: auto;
+    height: 226px;
+}
+
+.footer-container {
+    padding: 80px 160px 50px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagebox img {
+    padding: 10px;
 }
